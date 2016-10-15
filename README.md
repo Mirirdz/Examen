@@ -22,5 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
+https://dashboard.heroku.com/apps/examenmiriam
 https://git.heroku.com/examenmiriam.git
