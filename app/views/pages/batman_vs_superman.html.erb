@@ -9,6 +9,26 @@
        <%= image_tag "superman.png" %>
         <%= image_tag "batman.png" %>
 
+
+
+
+<%= form_for(@vote) do |f| %>
+
+  <%= f.label :heroe %>
+  <%= f.text_field :heroe %>
+
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+
+    <%= f.submit nil %>
+<% end %>
+
+
+
+
+
+
+
 <style type="text/css">
 
 .link1 {

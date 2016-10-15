@@ -4,5 +4,6 @@ class PagesController < ApplicationController
   def superman
   end
   def batman_vs_superman
+    @vote = Vote.new
   end
 end
