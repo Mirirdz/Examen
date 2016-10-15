@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+ 
+ $.backstretch([
+      "<%= asset_path 'batman.png' %>"
+    ], {duration: 3000, fade: 750});
