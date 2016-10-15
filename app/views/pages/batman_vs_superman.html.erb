@@ -1,0 +1,41 @@
+<h1>Pages#batman vs superman</h1>
+<p>Find me in app/views/pages/batman.html.erb</p>
+
+
+<%= link_to "superman", pages_superman_path, class: 'link1' %>
+<%= link_to "batman", pages_batman_path, class: 'link2' %>
+
+
+       <%= image_tag "superman.png" %>
+        <%= image_tag "batman.png" %>
+
+<style type="text/css">
+
+.link1 {
+  position:absolute;
+  left :10%;
+  font-size: 40px;
+}
+.link2 {
+  position:absolute;
+  left :80%;
+  font-size: 40px;
+}
+
+  img {
+    float :left;
+    width:50%;
+
+  }
+
+
+  h2 {
+   color:#fff;
+   font-size:100px;
+  	 left: 200px;
+    top: 150px;
+    position:absolute;
+
+     }
+   
+  </style>
